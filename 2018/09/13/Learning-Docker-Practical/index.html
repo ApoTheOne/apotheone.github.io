@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="Creating a blog from the notes made while learning."/>
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Apotheoun"/>
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Learning Docker - Practical"/>
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Creating a blog from the notes made while learning."/>
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="Developer notes"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article"/>
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="http://apotheone.github.iohttp://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg"/>
+    
+
+        <meta name="twitter:card" content="summary_large_image"/>
+
+    
+        <meta name="twitter:site" content="@anuragsaklani4"/>
+    
+
+    
+        <meta name="twitter:image" content="http://apotheone.github.iohttp://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg"/>
+    
+
+    <!-- Title -->
+    
+    <title>Learning Docker - Practical - Developer notes</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet"/>
+
+    <!-- Google Analytics -->
+    
+
+
+    <!-- favicon -->
+    
+
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Apotheoun</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                Home
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives">
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/apotheone/apotheone.github.io">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Learning Docker - Practical</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2018-09-13
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>This post will be <strong>hands on</strong> session for working in Docker.</p>
+<h2 id="Setup"><a href="#Setup" class="headerlink" title="Setup :"></a>Setup :</h2><p><strong>To install Docker on Linux open the terminal and run following command</strong>:<br><code>wget -qO- https://get.docker.com/ | sh</code></p>
+<p>To install docker in Windows 10 professional donwload binaries and install them.<br>If you are using a lower version like Windows home you will require Docker Toolbox and Oracle Virtual Box.</p>
+<p>To update Docker in Windows:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; Install-Module DockerProvider -Force`</span><br><span class="line">&gt; Install-Package Docker -ProviderName DockerProvider -Force</span><br></pre></td></tr></table></figure>
+<p>Run the following command to restart the docker service<br><code>sudo service docker restart</code></p>
+<hr>
+<h2 id="Playing-around-with-containers"><a href="#Playing-around-with-containers" class="headerlink" title="Playing around with containers :"></a>Playing around with containers :</h2><p>To run a container, type following command in the terminal:<br><code>docker run -it ubuntu bash</code><br>If the image is not present in your system’s cache then it calls <code>docker pull</code> implicitly which downloads the image from Docker registry.<br><code>-it</code> here signifies interactive shell<br>and <code>bash</code> takes us to the ubuntu containers bash.<br>Let’s install curl utility in this container and then exit:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">apt-get update</span><br><span class="line">apt-get install curl</span><br><span class="line">exit</span><br></pre></td></tr></table></figure>
+<p>To <strong>check running containers</strong>:<br><code>docker ps -a</code></p>
+<p>If we make some changes to a container and want to commit it to create a new image, we can use:<br><code>docker commit containerId</code><br><em>Note 1</em>: “containerId” was retrieved from previous command.<br><em>Note 2</em>: Ideally We should create an image and then run container out of it but this is just to check out how <code>commit</code> works.</p>
+<p>Let’s check the output of commit by checking out new image:</p>
+<figure class="highlight docker"><figcaption><span>images</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker tag imageId myImageName</span><br><span class="line">docker images</span><br></pre></td></tr></table></figure>
+<p>In order to <strong>list running containers</strong> type: <code>docker ps</code><br>To <strong>list all the containers</strong>: <code>docker ps -a</code><br>With Ids: <code>docker ps -aq</code><br>To check last run container: <code>docker ps -l</code></p>
+<p>Now let’s <strong>remove a container</strong> by: <code>docker rm containerId</code></p>
+<p>What to do if one wants to list out the images residing in your system? Try this: <code>docker images</code><br>Now in order to <strong>remove an image</strong>: <code>docker rmi imageId</code><br>To <strong>delete an image forcefully</strong>: <code>docker rmi -f imageId</code></p>
+<p>Now, let’s <strong>create a Dockerfile</strong> through which we can create an image, type this in terminal:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">touch Dockerfile</span><br><span class="line">vim Dockerfile</span><br><span class="line">FROM ubuntu</span><br><span class="line">RUN apt-get update</span><br><span class="line">RUN apt-get install -y curl</span><br></pre></td></tr></table></figure>
+<p><code>touch Dockerfile</code> creates a new file name Dockerfile.<br><code>vim Dockerfile</code> opens the file in the vim editor.<br>Either copy paste all the content or by switching to INSERT mode in VIM by pressing <code>i</code> and then typing it.</p>
+<p>Now let’s save it by pressing escape key and then type in <code>:w</code> to save and <code>:q</code> to exit vim editor. Or to do save and quit in one go, press excape to get out of insert mode and then press <code>:wq</code><br>Now we have a docker file with following content:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">FROM ubuntu</span><br><span class="line">RUN apt-get update</span><br><span class="line">RUN apt-get install -y curl</span><br></pre></td></tr></table></figure>
+<p>Now we will build an image from this dockerfile :<br><code>docker build -t newimagename .</code><br><em>Note</em>: <code>.</code> in the command represents current folder.</p>
+<p>Check new image using: <code>docker images</code><br>Now let’s run the image which should have curl utility pre-installed in it.<br><code>docker run -it myubuntuimage bash</code></p>
+<p>In order to execute a command as soon as a container starts, we use <strong>CMD</strong> :</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">FROM ubuntu</span><br><span class="line">RUN apt-get update</span><br><span class="line">RUN apt-get install -y curl</span><br><span class="line">CMD curl -i www.google.com</span><br></pre></td></tr></table></figure>
+<p>Build new image from this docker file:<br><code>docker build -t mycurlimage .</code></p>
+<p>If we need to build our image so that we can pass parameters in to it while running a container from it, we can use <strong>entrypoints</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">FROM ubuntu</span><br><span class="line">RUN apt-get update</span><br><span class="line">RUN apt-get install -y curl</span><br><span class="line">ENTRYPOINT [&quot;curl&quot;, &quot;-i&quot;]</span><br></pre></td></tr></table></figure>
+<p>Building image from updated dockerfile:<br><code>docker build -t mycurlimage .</code></p>
+<p>Now, test it by running these two commands one by one:<br><code>docker run mycurlimage www.google.com</code><br><code>docker run mycurlimage https://reqres.in/api/users?page=1</code></p>
+<p>Let’s try out one more scenario for entrypoint.<br>Update dockerfile like this:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">FROM ubuntu</span><br><span class="line">RUN apt-get update</span><br><span class="line">RUN apt-get install -y curl</span><br><span class="line">ENTRYPOINT [&quot;curl&quot;, &quot;-i&quot;]</span><br><span class="line">CMD https://reqres.in/api/users?page=2</span><br></pre></td></tr></table></figure>
+<p><em>Note</em>: If no parameter is passed while running <code>docker run</code>, then the CMD line’s page 2 api will be called (think of it as a default value).<br>Let’s build new image from our updated docker file and then run the container:<br><code>docker build -t mycurlimage .</code><br><code>docker run mycurlimage</code><br>This outputs response of <a href="https://reqres.in/api/users?page=2" target="_blank" rel="noopener">https://reqres.in/api/users?page=2</a></p>
+<p><code>docker run mycurlimage https://reqres.in/api/users?page=1</code><br>This outputs response of <a href="https://reqres.in/api/users?page=1" target="_blank" rel="noopener">https://reqres.in/api/users?page=1</a></p>
+<p><code>docker run mycurlimage https://reqres.in/api/users?page=3</code><br>This outputs response of <a href="https://reqres.in/api/users?page=3" target="_blank" rel="noopener">https://reqres.in/api/users?page=3</a></p>
+<p>To override entry point; let’s replace curl with bash like this:<br><code>docker run -it --entrypoint bash mycurlimage</code></p>
+<hr>
+<p>We have some essential parameters which are used while running a container like <code>-d</code>, <code>-P</code> etc.</p>
+<ol>
+<li><p><strong>daemon</strong> <code>-d</code> is used to run a container in backgorund.</p>
+</li>
+<li><p><code>--publish-all</code> or <code>-P</code> exposes it to others on random ports.<br>Lets try it out:<br><code>docker run -d --publish-all imageNameOfAppOrApi</code></p>
+</li>
+</ol>
+<p>Let’s play around with <strong><code>-p</code></strong> for a while.<br>We can expose/map localhost’s (your system’s) port 80 to container’s port 8080 by:<br><code>docker run -d -p 80:8080 imagenameofwebapporapi</code></p>
+<hr>
+<p>In order to get IP address of the container:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker inspect --format &apos;&#123;&#123; .NetworkSettings.IPAddress&#125;&#125;&apos;</span><br></pre></td></tr></table></figure>
+<p>containerid returnedIp<br><code>ping returnedIp</code></p>
+<hr>
+<h3 id="SWARM"><a href="#SWARM" class="headerlink" title="SWARM"></a>SWARM</h3><p>Now, let’s create, download or clone a sample Node.js API (can refer to this <a href="https://github.com/apotheone/PPOC/tree/master/NodeJsApi" target="_blank" rel="noopener">repo</a>)<br>Create and run it’s image from it’s dockerfile(ex: <a href="https://github.com/ApoTheOne/PPOC/blob/master/NodeJsApi/DockerFile" target="_blank" rel="noopener">dockerfile</a>): <code>docker build -t username/imagename:tag .</code></p>
+<p>Now, let’s initiate a swarm:<br>$ <code>docker swarm init</code><br>Swarm initialized: current node (jfzjw0wo8p9rax7ofcy5XXXXX) is now a manager.</p>
+<p>In order to add a worker to this swarm, run the following command:<br><code>docker swarm join --token XXXXXXXXXXx-1-e2qregpnucqkzk6u87tgc0j08dnjp0zambwkg26p3ce8aovk-e8hb2xge 192.168.XX.X:PORTNO</code></p>
+<p>To add a manager to this swarm, run<br><code>docker swarm join-token manager</code><br>and follow the instructions.</p>
+<p>Use a docker compose file from the given repo to deploy a stack:<br><code>docker stack deploy -c docker-compose.yml webapi</code></p>
+<p>Check running services using:<br><code>docker service ls</code><br>This should output webapi_web which is “webapi” appended with the service name in the docker-compose.yml file</p>
+<h5 id="TASK"><a href="#TASK" class="headerlink" title="TASK"></a>TASK</h5><p>A single container running in a service is called a task. Tasks are given unique IDs that numerically increment, up to the number of replicas you defined in docker-compose.yml.</p>
+<p>To list all the tasks of your service:<br><code>docker service ps webapi_web</code></p>
+<p><code>docker container ls -q</code></p>
+<p><code>curl -5 http://localhost:8080/test</code></p>
+<p>To scale our service, we can change number of replicas in our docker-compose.yml and re run the stack:<br><code>docker stack deploy -c docker-compose.yml &lt;appname&gt;</code></p>
+<p>This doesn’t require us to tear down a swarm or stop and re-run containers.<br><code>docker services ls -q</code></p>
+<p>In order to take down the app and the swarm:</p>
+<ol>
+<li>Take the app down with docker swarm rm:<br><code>docker stack rm webapi</code></li>
+<li>Take down the swarm.<br><code>docker swarm leave --force</code></li>
+</ol>
+<hr>
+<h3 id="Various-commands-used"><a href="#Various-commands-used" class="headerlink" title="Various commands used:"></a>Various commands used:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">docker stack ls</span><br><span class="line"># List stacks or apps</span><br><span class="line">docker stack deploy -c &lt;composefile&gt; &lt;appname&gt;</span><br><span class="line"># Run the specified Compose file</span><br><span class="line">docker service ls</span><br><span class="line"># List running services associated with an app</span><br><span class="line">docker service ps &lt;service&gt;</span><br><span class="line"># List tasks associated with an app</span><br><span class="line">docker inspect &lt;task or container&gt;</span><br><span class="line"># Inspect task or container</span><br><span class="line">docker container ls -q</span><br><span class="line"># List container IDs</span><br><span class="line">docker stack rm &lt;appname&gt;</span><br><span class="line"># Tear down an application</span><br><span class="line">docker swarm leave --force</span><br><span class="line"># Take down a single node swarm from the manager</span><br><span class="line"></span><br><span class="line"># //Create a Nw switch from HyperV Manager with eg: name myswitchname</span><br><span class="line">//Creating VMs</span><br><span class="line">docker-machine create -d hyperv --hyperv-virtual-switch &quot;myswitchName&quot; apovm1</span><br><span class="line">docker-machine create -d hyperv --hyperv-virtual-switch &quot;myswitchName&quot; apovm2</span><br><span class="line"></span><br><span class="line">docker-machine ssh apovm1 &quot;docker swarm init --advertise-addr &lt;ipadd:port&gt;&quot;</span><br><span class="line"></span><br><span class="line">docker-machine env apovm1</span><br><span class="line"># // configure your shell to talk to myvm1.</span><br><span class="line">&amp; &quot;C:\Program Files\Docker\Docker\Resources\bin\docker-machine.exe&quot; env apovm1 | Invoke-Expression</span><br><span class="line"></span><br><span class="line">docker stack deploy -c docker-compose.yml apistack</span><br><span class="line"></span><br><span class="line">docker stack rm apistack</span><br><span class="line">docker-machine ssh apovm2 &quot;docker swarm leave&quot;</span><br><span class="line">docker-machine ssh apovm1 &quot;docker swarm leave --force&quot;</span><br><span class="line"></span><br><span class="line">// unset the docker-machine environment variables in your current shell with</span><br><span class="line">&amp; &quot;C:\Program Files\Docker\Docker\Resources\bin\docker-machine.exe&quot; env apovm1 -u | Invoke-Expression</span><br></pre></td></tr></table></figure>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                        <li>
+                            <a href="https://twitter.com/anuragsaklani4" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/apotheone" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://www.linkedin.com/in/anurag-saklani-4a3a6013/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="mailto:anurag.saklani4@gmail.com" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2018 Apotheoun<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>
