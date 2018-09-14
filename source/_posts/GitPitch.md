@@ -4,7 +4,8 @@ date: 2018-08-01 19:31:27
 tags:
 ---
 
-Live at [GitPitch](https://gitpitch.com/ApoTheOne/gitpresentation)
+View live at [GitPitch](https://gitpitch.com/ApoTheOne/gitpresentation)
+[Github Repo](https://github.com/ApoTheOne/gitPresentation)
 
 ---
 

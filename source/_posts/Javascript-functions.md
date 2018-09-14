@@ -1,6 +1,6 @@
 ---
 title: Javascript functions
-date: 2018-09-14 09:38:27
+date: 2017-12-12 01:49:27
 tags:
 ---
 
