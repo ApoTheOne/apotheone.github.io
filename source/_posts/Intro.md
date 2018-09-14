@@ -94,7 +94,11 @@ For more details, refer: [Deployment](https://hexo.io/docs/deployment.html
 
 As I am using github as source control, I could have hosted this website on [Gihub pages](https://pages.github.com/) but I wanted to try [Netlify](https://www.netlify.com/)
 
-I created a website in Netlify, set the branch and entered deploy command as:
-`hexo deploy --generate`
+I created a website in Netlify and did following configuration:
+
+-   Set the repository URL.
+-   Set build command as `hexo deploy --generate`
+-   Set the publish directory, ex: public.
+-   Set your branch, in my case it was 'published'
 
 Voila, your site is up and running with continous deployment!
