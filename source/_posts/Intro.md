@@ -4,7 +4,7 @@ date: 2017-09-10 02:09:29
 tags:
 ---
 
-# HEXO
+# INTRO
 
 Welcome to learning developer's notes blog.
 I build this blog to share my learnings and solution to challenges I face while coding.
@@ -24,7 +24,8 @@ Although some of them requires special mentions like:
 -   Gitbook, VuePress for documentation
 -   Gatsby, Nuxt for e-commerce websites.
 
-I request you try out the one which suits you the most and do share your experience with us.
+I request you try out the one which suits you the most and do share your experience with us.  
+The following content is what I have used to generate my blogs, and for reference one might check [github repo](https://github.com/apotheone/apotheone.github.io)
 
 ---
 
