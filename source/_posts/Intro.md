@@ -93,13 +93,14 @@ For more details, refer: [Deployment](https://hexo.io/docs/deployment.html
 
 ---
 
-As I am using github as source control, I could have hosted this website on [Gihub pages](https://pages.github.com/) but I wanted to try [Netlify](https://www.netlify.com/)
+As I am using github as source control, I could have hosted this website on [Gihub pages](https://pages.github.com/) but I wanted to explore [Netlify](https://www.netlify.com/)
 
 I created a website in Netlify and did following configuration:
 
 -   Set the repository URL.
 -   Set build command as `hexo deploy --generate`
 -   Set the publish directory, ex: public.
--   Set your branch, in my case it was 'published'
-
-Voila, your site is up and running with continous deployment!
+-   Set your branch, in my case it was 'master'
+Voila, your site is up and running with continous deployment!  
+Basic Tip: You might want to work on a different branch and then create a pull request for merging changes into master beanch.
+As soon as your pull request is approved and merged, you website/blog will be automatically updated.
