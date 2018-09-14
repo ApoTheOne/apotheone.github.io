@@ -6,33 +6,81 @@ tags:
 
 # HEXO
 
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+Welcome to learning developer's notes blog.
+I build this blog to share my learnings and solution to challenges I face while coding.
 
-## Quick Start
+While learning or exploring something new, I usually create notes in a mardown file.
+Later, I decided to create blog from these notes so that others can also get some benefit out of it.
 
-### Create a new post
+---
+
+I had to choose a static site generator for building posts quickly and to figure out what is the best fit for me I went to [StaticGen](https://www.staticgen.com/), [Snipcart](https://snipcart.com/blog/choose-best-static-site-generator), [CreativeBloq](https://www.creativebloq.com/features/10-best-static-site-generators) and few more sites.
+
+In order to create blogs from markdown files I chose [Hexo](https://hexo.io/) as it didn't required me to install anything else apart from a npm package 'hexo-cli', as I already have prerequisite node.js installed in my system.
+I could have easily went out for other powerful tools out there but I was too lazy to install something and as it required some setup prior actual work.
+Although some of them requires special mentions like:
+
+-   Jekyll(GitHubPages), Hugo for blogging,
+-   Gitbook, VuePress for documentation
+-   Gatsby, Nuxt for e-commerce websites.
+
+I request you try out the one which suits you the most and do share your experience with us.
+
+---
+
+**Now let's start with actual work:**
+Do refer [Hexo docs](https://hexo.io/docs)  
+First, install hexo-cli:
+
+```bash
+npm install -g hexo-cli
+```
+
+Go to your project folder or create one:
+
+```bash
+mkdir devnotes
+cd devnotes
+```
+
+Inside that directory, initialize your website:
+
+```bash
+hexo init
+```
+
+Go through config.yml and update it as per your needs.
+
+Create a new post in your website created in previous step:
 
 ```bash
 $ hexo new "Intro"
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+Enter the content in markdown.
+Refer: [Writing](https://hexo.io/docs/writing.html)
 
-### Run server
+Run your server:
 
 ```bash
 $ hexo server
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
+For more details, go to: [Server](https://hexo.io/docs/server.html)
 
-### Generate static files
+If you are facing any issues then try debugging:
+
+```bash
+hexo --debug
+```
+
+Generate static files
 
 ```bash
 $ hexo generate
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+For more details, refer: [Generating](https://hexo.io/docs/generating.html)
 
 ### Deploy to remote sites
 
@@ -40,4 +88,13 @@ More info: [Generating](https://hexo.io/docs/generating.html)
 $ hexo deploy
 ```
 
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+For more details, refer: [Deployment](https://hexo.io/docs/deployment.html
+
+---
+
+As I am using github as source control, I could have hosted this website on [Gihub pages](https://pages.github.com/) but I wanted to try [Netlify](https://www.netlify.com/)
+
+I created a website in Netlify, set the branch and entered deploy command as:
+`hexo deploy --generate`
+
+Voila, your site is up and running with continous deployment!
