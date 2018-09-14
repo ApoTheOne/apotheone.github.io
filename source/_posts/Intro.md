@@ -100,7 +100,7 @@ I created a website in Netlify and did following configuration:
 -   Set the repository URL.
 -   Set build command as `hexo deploy --generate`
 -   Set the publish directory, ex: public.
--   Set your branch, in my case it was 'master'
-Voila, your site is up and running with continous deployment!  
+-   Set your branch, in my case it was 'master'  
+Oh yeah, your site is up and running with continous deployment!  
 Basic Tip: You might want to work on a different branch and then create a pull request for merging changes into master beanch.
 As soon as your pull request is approved and merged, you website/blog will be automatically updated.
