@@ -1,0 +1,49 @@
+# Header
+menu:
+    Home: /
+    Archives: /archives
+    #Tags: /tags
+    #Categories: /categories
+    Github:
+        url: https://github.com/apotheone/apotheone.github.io
+        icon: github
+
+# Title on top left of menu. Leave empty to use main blog title
+menu_title: Apotheoun
+
+# URL of the Home page image
+index_cover: http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg
+
+# Default post title
+default_post_title: Learn
+
+# Comments. Choose one by filling up the information
+comments:
+    # Disqus comments
+    ? disqus_shortname
+    # Facebook comments
+    facebook:
+        ? appid
+        comment_count: 5
+        comment_colorscheme: light
+
+# Google Analytics Tracking ID
+? google_analytics
+
+# Addthis ID
+? addthis
+
+# set your own favicon
+? ? favicon: blog\themes\clean-blog\source\css\images\favicon.ico
+
+# Social Accounts
+twitter_url: https://twitter.com/anuragsaklani4
+twitter_handle: anuragsaklani4
+github_url: https://github.com/apotheone
+linkedin_url: https://www.linkedin.com/in/anurag-saklani-4a3a6013/
+mailto: anurag.saklani4@gmail.com
+
+deploy:
+    type: git
+    repo: https://www.github.com/apotheone/apotheone.github.io
+    branch: published
