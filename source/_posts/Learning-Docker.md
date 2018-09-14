@@ -1,6 +1,6 @@
 ---
 title: Learning Docker - Theory
-date: 2017-09-13 17:23:27
+date: 2017-09-12 17:23:27
 tags:
 ---
 
