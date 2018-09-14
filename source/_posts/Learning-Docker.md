@@ -8,29 +8,29 @@ tags:
 
 ---
 
-#### Topics
+#### Worth exploring, although might not have notes from all these topics.
 
--   Overview |
--   Dockerfile |
--   How to create a docker file? |
--   How to build a docker image? |
--   How to upload an image to Docker Hub? |
+-   Overview
+-   Dockerfile
+-   How to create a docker file?
+-   How to build a docker image?
+-   How to upload an image to Docker Hub?
 
 ---
 
 -   Docker Compose
--   Environment variables |
--   Port Mapping |
--   Links |
--   Volumes |
+-   Environment variables
+-   Port Mapping
+-   Links
+-   Volumes
 
 ---
 
 -   Network
--   Docker Swarm |
--   Services |
--   Stacks |
--   Tasks |
+-   Docker Swarm
+-   Services
+-   Stacks
+-   Tasks
 
 ---
 
@@ -65,10 +65,6 @@ For example:
 
 -   An image is an executable package that includes everything needed to run an application the code, a runtime, libraries, environment variables, and configuration files.
 -   These portable images are defined by something called a Dockerfile.
-
----
-
-### DEMO TIME
 
 ---
 
@@ -124,11 +120,9 @@ Manager - worker pattern.
 #### Services
 
 In a distributed application, different pieces of the app are called “services.” For example, if you imagine a video sharing site, it probably includes a service for storing application data in a database, a service for video transcoding in the background after a user uploads something, a service for the front-end, and so on.
-contd...
 
 ---
 
-contd...
 Services are really just “containers in production.” A service only runs one image, but it codifies the way that image runs—what ports it should use, how many replicas of the container should run so the service has the capacity it needs, and so on. Scaling a service changes the number of container instances running that piece of software, assigning more computing resources to the service in the process.
 Luckily it’s very easy to define, run, and scale services with the Docker platform -- just write a docker-compose.yml file.
 [Source](https://docs.docker.com/get-started/part3/#run-your-new-load-balanced-app)
@@ -164,6 +158,6 @@ Get the service ID for the one service in our application:
 docker service ls
 ```
 
-## [Source:Docker](https://docs.docker.com/get-started/part3/#run-your-new-load-balanced-app)
+[Source:Docker](https://docs.docker.com/get-started/part3/#run-your-new-load-balanced-app)
 
-# Thank you!
+Thank you!
