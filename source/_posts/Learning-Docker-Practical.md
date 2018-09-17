@@ -1,7 +1,8 @@
 ---
 title: Learning Docker - Practical
 date: 2017-09-15 23:02:03
-tags:
+tags: [Docker, hands on docker]
+categories: [Docker]
 ---
 
 This post will be **hands on** session for working in Docker.

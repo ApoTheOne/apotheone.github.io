@@ -1,7 +1,8 @@
 ---
 title: Learning Docker - Theory
 date: 2017-09-12 17:23:27
-tags:
+tags: [Docker, docker concepts]
+categories: [Docker]
 ---
 
 # Docker
