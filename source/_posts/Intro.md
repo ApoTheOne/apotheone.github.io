@@ -1,15 +1,18 @@
 ---
 title: Intro, build and host your website for free
 date: 2017-09-10 02:09:29
-tags: Free Static wesite Hosting, Hexo, Github, Markdown, Continuous Deployment
+tags:
+    [Free Static website Hosting, Hexo, Github, Markdown, Continuous Deployment]
+categories: [Static website hosting]
 ---
 
 # Build and host your site for free
 
-Welcome to learning developer's notes blog.
+Welcome to developer's notes blog.
 I build this blog to share my learnings and solution to challenges I face while coding.
 
-While learning or exploring something new, I usually create notes in a mardown file.
+While learning/exploring something new or looking for solutions to the problems I faced, I used to copy paste notes(learnings) in random notepad or MS Word files. Managing these files was a challenge as searching thorough the content was tough. It needed synchronisation when I started working with multiple sysytems (was using google drive).  
+After learning about Markdown, I started creating these notes in a mardown file.
 Later, I decided to create blog from these notes so that others can also get some benefit out of it.
 
 ---
@@ -101,6 +104,9 @@ I created a website in Netlify and did following configuration:
 -   Set build command as `hexo deploy --generate`
 -   Set the publish directory, ex: public.
 -   Set your branch, in my case it was 'master'  
-Oh yeah, your site is up and running with continous deployment!  
-Basic Tip: You might want to work on a different branch and then create a pull request for merging changes into master beanch.
-As soon as your pull request is approved and merged, you website/blog will be automatically updated.
+    Oh yeah, your site is up and running with continous deployment!  
+    Basic Tip: You might want to work on a different branch and then create a pull request for merging changes into master beanch.
+    As soon as your pull request is approved and merged, you website/blog will be automatically updated.
+
+Note: I go through web articles, videos and books; those learnings are posted in these blogs and If I forget to mention the author, please do let me know and I will update.
+Also, I would really appreciate suggestions for improvements, Thanks.

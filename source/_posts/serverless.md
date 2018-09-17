@@ -1,7 +1,8 @@
 ---
-title: AWS Lambda + Serverless
+title: AWS Lambda, Serverless
 date: 2018-09-14 09:24:13
-tags:
+tags: [AWS Lambda, serverless]
+categories: [AWS Lambda Serverless]
 ---
 
 ## AWS Lambda + Serverless

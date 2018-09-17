@@ -1,7 +1,8 @@
 ---
 title: GitPitch
 date: 2018-08-01 19:31:27
-tags:
+tags: [gitpitch, github, presentation]
+categories: [gitpitch]
 ---
 
 View live at [GitPitch](https://gitpitch.com/ApoTheOne/gitpresentation)

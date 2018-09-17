@@ -1,7 +1,8 @@
 ---
 title: Javascript functions
 date: 2017-12-12 01:49:27
-tags:
+tags: [javascript, Javascript functions, IIFE, context, scoping, closures]
+categories: [javascript]
 ---
 
 ## Javascript functions, closures and scopes
