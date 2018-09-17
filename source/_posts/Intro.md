@@ -1,10 +1,10 @@
 ---
-title: Intro
+title: Intro, build and host your website for free
 date: 2017-09-10 02:09:29
-tags:
+tags: Free Static wesite Hosting, Hexo, Github, Markdown, Continuous Deployment
 ---
 
-# INTRO
+# Build and host your site for free
 
 Welcome to learning developer's notes blog.
 I build this blog to share my learnings and solution to challenges I face while coding.
