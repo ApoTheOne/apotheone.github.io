@@ -12,7 +12,7 @@ menu:
 menu_title: <Dev notes/>
 
 # URL of the Home page image
-index_cover: http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg
+index_cover: https://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg
 
 # Default post title
 default_post_title: Learn
@@ -34,7 +34,7 @@ comments:
 ? addthis
 
 # set your own favicon
-? ? favicon: blog\themes\clean-blog\source\css\images\favicon.ico
+? ? favicon: blog\themes\clean-blog\source\img\favicon.ico
 
 # Social Accounts
 twitter_url: https://twitter.com/anuragsaklani4
