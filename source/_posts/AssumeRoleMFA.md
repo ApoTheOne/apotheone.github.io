@@ -1,7 +1,8 @@
 ---
 title: AWS Lambda, Serverless - Assuming Roles with MFA
 date: 2018-09-22 14:33:36
-tags:
+tags: [AWS Lambda, serverless]
+categories: [AWS Lambda Serverless]
 ---
 
 ## Setting up AWS Lambda and Serverless with assumed roles and MFA
