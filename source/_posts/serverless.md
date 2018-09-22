@@ -5,7 +5,7 @@ tags: [AWS Lambda, serverless]
 categories: [AWS Lambda Serverless]
 ---
 
-## AWS Lambda + Serverless
+## AWS Lambda + Serverless - Getting started
 
 Installation:
 
