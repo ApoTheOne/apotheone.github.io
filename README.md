@@ -9,3 +9,5 @@ Cloning this repo:
 ```bash
 git clone https://github.com/ApoTheOne/apotheone.github.io.git
 ```
+
+This blog is hosted here: [Dev Notes](apotheoun.netlify.com)
