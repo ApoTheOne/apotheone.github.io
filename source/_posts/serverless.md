@@ -64,6 +64,8 @@ To locally debug via VS Code:
 }
 ```
 
+Add breakpoints (default key: F9), start debugging (default key: F5) and enjoy!
+
 ---
 
 After updating a function in order to avoid updating whole stack, we can update a single function by:
