@@ -1,5 +1,5 @@
 ---
-title: OmniSharpFix
+title: Issue with debugging and installing C# dependencies - VS Code
 date: 2017-09-11 16:30:12
 tags:
 ---
