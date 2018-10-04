@@ -85,19 +85,4 @@ console.log('Alpaca color is ' + alpacaColor); // Alpaca color is green
 
 > Who wants a green alpaca?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Special thanks to blogger: [Jofferson Ramirez Tiquez] (https://github.com/jofftiquez)
