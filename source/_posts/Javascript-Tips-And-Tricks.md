@@ -1,8 +1,8 @@
 ---
 title: Javascript Tips and Tricks by: [Jofferson Ramirez Tiquez](https://github.com/jofftiquez)
 date: 2018-10-04 23:02:03
-tags: [Docker, hands on docker]
-categories: [Docker]
+tags: [Javascript]
+categories: [Javascript]
 ---
 ## Javascript Tips and Tricks
 ---
