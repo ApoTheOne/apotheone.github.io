@@ -4,9 +4,8 @@ date: 2018-10-04 23:02:03
 tags: [Javascript]
 categories: [Javascript]
 ---
-## Javascript Tips and Tricks
----
-### Tips and Tricks
+
+## Tips and Tricks
 
 #### 1) Getting an array from behind to front
 
