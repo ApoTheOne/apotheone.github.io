@@ -15,7 +15,7 @@ menu_title: <Dev notes/>
 index_cover: https://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg
 
 # Default post title
-default_post_title: Learn
+default_post_title: Dev notes
 
 # Comments. Choose one by filling up the information
 comments:
