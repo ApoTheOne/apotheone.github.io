@@ -1,3 +1,9 @@
+---
+title: Javascript Tips and Tricks by: [Jofferson Ramirez Tiquez](https://github.com/jofftiquez)
+date: 2018-10-04 23:02:03
+tags: [Javascript]
+categories: [Javascript]
+---
 ## Javascript Tips and Tricks
 ---
 ### Tips and Tricks
@@ -85,4 +91,4 @@ console.log('Alpaca color is ' + alpacaColor); // Alpaca color is green
 
 > Who wants a green alpaca?
 
-Special thanks to blogger: [Jofferson Ramirez Tiquez] (https://github.com/jofftiquez)
+Special thanks to contributor : [Jofferson Ramirez Tiquez](https://github.com/jofftiquez)
