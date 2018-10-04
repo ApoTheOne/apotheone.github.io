@@ -1,5 +1,5 @@
 ---
-title: Javascript Tips and Tricks by: [Jofferson Ramirez Tiquez](https://github.com/jofftiquez)
+title: Javascript Tips and Tricks
 date: 2018-10-04 23:02:03
 tags: [Javascript]
 categories: [Javascript]
@@ -9,7 +9,7 @@ categories: [Javascript]
 
 #### 1) Getting an array from behind to front
 
-Given the array: 
+Given the array:
 
 ```javascript
 const animals = ['Otter', 'Badger', 'Alpaca', 'Sloth'];
@@ -26,14 +26,15 @@ animals.slice(-4); // ['Sloth']
 
 #### 2) Short-circuit
 
-Instead of doing: 
+Instead of doing:
 
 ```javascript
-if(condition) {
-  callMe();
+if (condition) {
+    callMe();
 }
 ```
-You can just simply: 
+
+You can just simply:
 
 ```javascript
 condition && callMe();
@@ -47,10 +48,10 @@ The long way:
 const age = 10;
 const legalAge = 18;
 
-if(age >= legalAge) {
-  console.log('Drink beer!');
+if (age >= legalAge) {
+    console.log('Drink beer!');
 } else {
-  console.log('Drink milk or something else!');
+    console.log('Drink milk or something else!');
 }
 ```
 
@@ -66,14 +67,14 @@ console.log(age >= legalAge ? 'Drink beer!' : 'Drink milk or something else!');
 
 ```javascript
 const add = (x, y) => {
-  if(typeof x !== 'number' || typeof y !== 'number')
-    return null;
-  return x + y;
-}
+    if (typeof x !== 'number' || typeof y !== 'number') return null;
+    return x + y;
+};
 
-add(1, 1) // 2
-add(1, {}) // null
+add(1, 1); // 2
+add(1, {}); // null
 ```
+
 By this solution, you can make sure that the addends are number.
 
 #### 5) Assigning alternative value to a falsy variables
