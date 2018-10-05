@@ -22,15 +22,16 @@ a
   color gray-dark
   &:hover, &:focus
     color brand-primary
+
 a img
   &:hover, &:focus
     cursor zoom-in
 
 hr.small
-  max-width 100px
+  max-width 100%
   margin 15px auto
   border-width 4px
-  border-color white
+  border-color #ffb862
 
 .fa-stack-1x, .fa-stack-2x
   bottom 0
@@ -60,6 +61,7 @@ hr.small
       padding 20px
       &:hover, &:focus
         color white-faded
+
     .nav
       li
         a
@@ -98,6 +100,7 @@ hr.small
             color gray-dark
             &:hover, &:focus
               color brand-primary
+
     &.is-visible
       /* if the user changes the scrolling direction, we show the header */
       -webkit-transform translate3d(0, 100%, 0)
@@ -156,6 +159,7 @@ hr.small
     @media only screen and (min-width: 768px)
       h1
         font-size 55px
+
       .subheading
         font-size 30px
 
@@ -222,6 +226,7 @@ hr.small
 
 .archive-before-pagination
   height 30px
+
 footer
   padding 50px 0 65px
   .list-inline
@@ -260,10 +265,10 @@ footer
     vertical-align middle
     vertical-align baseline
     opacity 0
-    -webkit-transition top 0.3s ease,opacity 0.3s ease
-    -moz-transition top 0.3s ease,opacity 0.3s ease
-    -ms-transition top 0.3s ease,opacity 0.3s ease
-    transition top 0.3s ease,opacity 0.3s ease
+    -webkit-transition top 0.3s ease, opacity 0.3s ease
+    -moz-transition top 0.3s ease, opacity 0.3s ease
+    -ms-transition top 0.3s ease, opacity 0.3s ease
+    transition top 0.3s ease, opacity 0.3s ease
   &::not(:first-child)
     padding-left 14px
     border-left 1px solid gray-light
