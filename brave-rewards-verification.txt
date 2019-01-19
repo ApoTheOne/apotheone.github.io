@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: apotheoun.netlify.com
+Token: 3d3a588e0125d502f7cae4d23f7e6eaf7771466c35a48c89897af8c4a4a5def9
