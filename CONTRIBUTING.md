@@ -11,4 +11,4 @@ First fork and then clone the repo:
 
 After making changes push the changes to your fork and submit a pull request.
 
-I would try to review and merge if apt, as soon as possible.
+I would try to review and merge as soon as possible.
