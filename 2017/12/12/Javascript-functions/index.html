@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head><meta name="generator" content="Hexo 3.8.0">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="Creating a blog from the notes made while learning.">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Apotheoun">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Javascript functions">
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Creating a blog from the notes made while learning.">
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="Developer notes">
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article">
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="https://apotheoun.netlify.comhttps://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg">
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+
+    
+        <meta name="twitter:site" content="@anuragsaklani4">
+    
+
+    
+        <meta name="twitter:image" content="https://apotheoun.netlify.comhttps://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg">
+    
+
+    <!-- Title -->
+    
+    <title>Javascript functions - Developer notes</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet">
+
+    <!-- Google Analytics -->
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-127706319-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+    <!-- favicon -->
+    
+
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><dev notes=""></dev></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                Home
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives">
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/tags">
+                            
+                                Tags
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories">
+                            
+                                Categories
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://github.com/apotheone/apotheone.github.io">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('https://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Javascript functions</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2017-12-12
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/javascript/">#javascript</a> <a href="/tags/Javascript-functions/">#Javascript functions</a> <a href="/tags/IIFE/">#IIFE</a> <a href="/tags/context/">#context</a> <a href="/tags/scoping/">#scoping</a> <a href="/tags/closures/">#closures</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                        
+
+<a href="/categories/javascript/">javascript</a>
+
+                    
+                </div>
+            
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h2 id="Javascript-functions-closures-and-scopes"><a href="#Javascript-functions-closures-and-scopes" class="headerlink" title="Javascript functions, closures and scopes"></a>Javascript functions, closures and scopes</h2><hr>
+<h3 id="Functions"><a href="#Functions" class="headerlink" title="Functions:"></a>Functions:</h3><h5 id="1-Function-statement"><a href="#1-Function-statement" class="headerlink" title="1) Function statement:"></a>1) Function statement:</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">function calcRectArea(width, height) &#123;</span><br><span class="line"></span><br><span class="line">	return width * height;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"> console.log(calcRectArea(5, 6));</span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="2-Function-expression"><a href="#2-Function-expression" class="headerlink" title="2) Function expression:"></a>2) Function expression:</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">var getRectArea = function(width, height) &#123;</span><br><span class="line"></span><br><span class="line">    return width * height;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"> console.log(getRectArea(3,4));</span><br><span class="line"></span><br><span class="line">// expected output: 12</span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="2-a-Anonymous-methods"><a href="#2-a-Anonymous-methods" class="headerlink" title="2. a) Anonymous methods"></a>2. a) Anonymous methods</h5><p>var myFunction = function() {<br>statements<br>}</p>
+<hr>
+<h5 id="Named-function-expression"><a href="#Named-function-expression" class="headerlink" title="Named function expression"></a>Named function expression</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var myFunction = function namedFunction()&#123;</span><br><span class="line">    statements</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Benefit of named function expression is that in case we encountered an error,<br>the stack trace will contain the name of the function, making it easier to find the origin of the error.</p>
+<hr>
+<h5 id="2-b-IIFE"><a href="#2-b-IIFE" class="headerlink" title="2. b) IIFE"></a>2. b) IIFE</h5><p>Normal function, not an IIFE</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">var counter = 0;</span><br><span class="line">var f = function()&#123;</span><br><span class="line">	counter++;</span><br><span class="line">	console.log(counter);</span><br><span class="line">&#125;</span><br><span class="line">f();</span><br><span class="line">counter++;</span><br><span class="line">f();</span><br></pre></td></tr></table></figure>
+<hr>
+<p>Normal function, not an IIFE<br>Scope Pollution</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">var counter = 0;</span><br><span class="line">var f = function()&#123;</span><br><span class="line">	var counter = 5;</span><br><span class="line">	console.log(counter);</span><br><span class="line">&#125;</span><br><span class="line">f();</span><br><span class="line">counter++;</span><br><span class="line">f();</span><br></pre></td></tr></table></figure>
+<hr>
+<p>IIFE</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">var counter = 0;</span><br><span class="line">(function()&#123;</span><br><span class="line">	var counter = 5;</span><br><span class="line">	console.log(counter);</span><br><span class="line">&#125;)();</span><br><span class="line">counter++;</span><br><span class="line">console.log(counter);</span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="Pros-of-IIFE"><a href="#Pros-of-IIFE" class="headerlink" title="Pros of IIFE:"></a>Pros of IIFE:</h5><ul>
+<li>a) Called once, can also be used to initialize variables |</li>
+<li>b) Improving performance, since javascript first looks upto local scope |</li>
+<li>c) Simulatting or creating a new scope |</li>
+<li>d) Avoding scope pollution |</li>
+</ul>
+<hr>
+<h5 id="Arrow-functions"><a href="#Arrow-functions" class="headerlink" title="Arrow functions:"></a>Arrow functions:</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">([param[, param]]) =&gt; &#123;</span><br><span class="line">   statements</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">param =&gt; expression</span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="Context"><a href="#Context" class="headerlink" title="Context"></a>Context</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">let obj = &#123;</span><br><span class="line">  myVar: &apos;foo&apos;,</span><br><span class="line"></span><br><span class="line">  myFunc: function() &#123;</span><br><span class="line">    console.log(this.myVar)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">obj.myFunc() // foo</span><br></pre></td></tr></table></figure>
+<hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">let obj = &#123;</span><br><span class="line">  myVar: &apos;foo&apos;,</span><br><span class="line"></span><br><span class="line">  myFunc: function() &#123;</span><br><span class="line">    console.log(this.myVar)</span><br><span class="line"></span><br><span class="line">    setTimeout(function() &#123;</span><br><span class="line">      console.log(this.myVar)</span><br><span class="line">    &#125;, 1000)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">obj.myFunc()</span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="Lexical-Scope"><a href="#Lexical-Scope" class="headerlink" title="Lexical Scope"></a>Lexical Scope</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">let obj = &#123;</span><br><span class="line">  myVar: &apos;foo&apos;,</span><br><span class="line"></span><br><span class="line">  myFunc: function() &#123;</span><br><span class="line">    let self = this</span><br><span class="line">    console.log(this.myVar)</span><br><span class="line"></span><br><span class="line">    setTimeout(function() &#123;</span><br><span class="line">      console.log(self.myVar)</span><br><span class="line">    &#125;, 1000)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">obj.myFunc() // foo ... then... foo</span><br></pre></td></tr></table></figure>
+<hr>
+<h6 id="Problem-solved-with-arrow-functions"><a href="#Problem-solved-with-arrow-functions" class="headerlink" title="Problem solved with arrow functions:"></a>Problem solved with arrow functions:</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">let obj = &#123;</span><br><span class="line">  myVar: &apos;foo&apos;,</span><br><span class="line"></span><br><span class="line">  myFunc: function() &#123;</span><br><span class="line">    console.log(this.myVar)</span><br><span class="line"></span><br><span class="line">    setTimeout(() =&gt; &#123;</span><br><span class="line">      console.log(this.myVar)</span><br><span class="line">    &#125;, 1000)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">obj.myFunc() // foo ... then... foo</span><br></pre></td></tr></table></figure>
+<hr>
+<h6 id="Beware"><a href="#Beware" class="headerlink" title="Beware"></a>Beware</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">let obj = &#123;</span><br><span class="line">  myVar: &apos;foo&apos;,</span><br><span class="line"></span><br><span class="line">  myFunc: () =&gt; &#123;</span><br><span class="line">    console.log(this.myVar)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">obj.myFunc() // undefined</span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="Closures"><a href="#Closures" class="headerlink" title="Closures"></a>Closures</h5><p>Created when an inner function tries to access variables and other objects, of the parent function.<br>Eg.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">function parent() &#123;</span><br><span class="line">    var name = “John”;</span><br><span class="line">    var child = function () &#123;</span><br><span class="line">        console.log (name); &#125;;</span><br><span class="line">    return child;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Closures-are-uni-directional-i-e-from-parent-to-child"><a href="#Closures-are-uni-directional-i-e-from-parent-to-child" class="headerlink" title="Closures are uni-directional i.e. from parent to child"></a>Closures are uni-directional i.e. from parent to child</h2><p>Each function has a separate scope</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">function parent() &#123;</span><br><span class="line">    var name = “John”;</span><br><span class="line">    var child = function () &#123;</span><br><span class="line">        console.log (name); &#125;;</span><br><span class="line">    return child;</span><br><span class="line">&#125;</span><br><span class="line">var child = parent();</span><br><span class="line">child();</span><br><span class="line">// The name would still be accessible, even after exiting parent</span><br></pre></td></tr></table></figure>
+<hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">function makeCounter &#123;</span><br><span class="line">  var counter = 0; // this variable should normally go away, but it won&apos;t!</span><br><span class="line">  return function() &#123;</span><br><span class="line">    counter++;</span><br><span class="line">    return counter;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">var getCount = makeCounter();</span><br><span class="line">// the function makeCounter has finished, so normally var counter</span><br><span class="line">// would have been forgotten about!</span><br><span class="line">var n1 = getCount(); // n1 now equals 1</span><br><span class="line">var n2 = getCount(); // n2 now equals 2</span><br></pre></td></tr></table></figure>
+<hr>
+<p>IO operations</p>
+<p>read file, DB calls,<br>In C#, Java multi threaded app<br>In nodejs single threaded event loop</p>
+<p>callback<br>events</p>
+<hr>
+<p>THANK YOU!<br>Sources:<br><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions" target="_blank" rel="noopener">MDN</a><br><a href="https://medium.com/tfogo/advantages-and-pitfalls-of-arrow-functions-a16f0835799e" target="_blank" rel="noopener">Medium</a><br><a href="https://www.quora.com/How-do-I-explain-JavaScript-closures-to-a-child" target="_blank" rel="noopener">Quora</a></p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                        <li>
+                            <a href="https://twitter.com/anuragsaklani4" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/apotheone" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="https://www.linkedin.com/in/anurag-saklani-4a3a6013/" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                        <li>
+                            <a href="mailto:anurag.saklani4@gmail.com" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2019 Apotheoun<br></p>
+                <p class="copyright text-muted">Original Theme <a target="_blank" href="http://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> from <a href="http://startbootstrap.com/" target="_blank">Start Bootstrap</a></p>
+                <p class="copyright text-muted">Adapted for <a target="_blank" href="https://hexo.io/">Hexo</a> by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>

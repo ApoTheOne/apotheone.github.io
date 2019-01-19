@@ -1,5 +1,0 @@
-<html>
-    <head>Checker page</head>
-    <body>Body check</body>
-    <footer>all checked!</footer>
-</html>
