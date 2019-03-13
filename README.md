@@ -10,4 +10,4 @@ Cloning this repo:
 git clone https://github.com/ApoTheOne/apotheone.github.io.git
 ```
 
-This blog is hosted at: [Dev Notes Netlify](https://apotheoun.netlify.com/) and [Dev Notes Github Pages] (https://apotheone.github.io)
+This blog is hosted at: [Dev Notes Netlify](https://apotheoun.netlify.com/) and [Dev Notes Github Pages](https://apotheone.github.io)
