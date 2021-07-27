@@ -1,7 +1,7 @@
 # apotheone.github.io
 Converting learning notes to a blog using Hexo.
 
-Purpose of creating this is to share what I learn and share it with all.
+Purpose of creating this blog is to share learnings with everyone.
 
 For any improvements or corrections please clone and raise a pull request:
 
